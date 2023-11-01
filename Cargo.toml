@@ -12,3 +12,14 @@ axum = "0.6.20"
 
 # Asynchronous runtime
 tokio = { version = "1.33.0", features = ["full"] }
+
+# Database
+sqlx = { version = "0.7", features = [
+    "postgres",
+    "runtime-tokio-rustls",
+    "migrate",
+    "uuid",
+] }
+
+# Environment Variable Management
+dotenv = "0.15.0"

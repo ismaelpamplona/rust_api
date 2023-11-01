@@ -1,5 +1,5 @@
 use axum::response::IntoResponse;
 
 pub async fn list() -> impl IntoResponse {
-    "Articles List!".to_string()
+    "Articles List".to_string()
 }
